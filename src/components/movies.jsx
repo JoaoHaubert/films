@@ -14,11 +14,11 @@ class Movies extends Component {
     
     render() { 
 
-        if(this.state.movies.length === 0) return <p><strong>There are no movies in stock.</strong></p>
+        if(this.state.movies.length === 0) return <p><strong>There are no movies in data.</strong></p>
         return( 
 
         <React.Fragment>
-    <p><strong>Showing {this.state.movies.length} in the stock.</strong></p>  
+    <p><strong>Showing {this.state.movies.length} movies in the data.</strong></p>  
         
         
         <table className = "table">
